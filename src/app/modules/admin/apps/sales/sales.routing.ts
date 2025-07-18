@@ -1,14 +1,9 @@
-import { NgModule } from '@angular/core';
-import { Route, RouterModule, Routes } from '@angular/router';
+import { Route } from '@angular/router';
 import { SalesComponent } from './sales.component';
-import { TasksListComponent } from '../tasks/list/list.component';
-import { TasksResolver, TasksTaskResolver } from '../tasks/tasks.resolvers';
-import { TasksDetailsComponent } from '../tasks/details/details.component';
-import { CanDeactivateTasksDetails } from '../tasks/tasks.guards';
 import { ListComponent } from './list/list.component';
 
 
-export const SalesRoutes: Route[] = [
+export const salesRoutes: Route[] = [
     {
         path     : '',
         component: SalesComponent,

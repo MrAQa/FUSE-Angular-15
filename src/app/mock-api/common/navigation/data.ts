@@ -153,6 +153,13 @@ export const defaultNavigation: FuseNavigationItem[] = [
                 type : 'basic',
                 icon : 'heroicons_outline:check-circle',
                 link : '/apps/tasks'
+            },
+             {
+                id   : 'apps.sales',
+                title: 'Sales',
+                type : 'basic',
+                icon : 'heroicons_outline:check-circle',
+                link : '/apps/sales'
             }
         ]
     },
